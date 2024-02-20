@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34525.116
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SWITCH_EJERCICIO1", "SWITCH_EJERCICIO1\SWITCH_EJERCICIO1.csproj", "{5AC7968C-C9D4-493F-A338-F50FAF8808A6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SWITCH_EJERCICIO1", "SWITCH_EJERCICIO1\SWITCH_EJERCICIO1.csproj", "{5AC7968C-C9D4-493F-A338-F50FAF8808A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CONDICIONALES_1_YEN", "CONDICIONALES_1_YEN\CONDICIONALES_1_YEN.csproj", "{C24C6838-6D1B-47BC-8FCE-7D8B2A047245}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{5AC7968C-C9D4-493F-A338-F50FAF8808A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5AC7968C-C9D4-493F-A338-F50FAF8808A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5AC7968C-C9D4-493F-A338-F50FAF8808A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C24C6838-6D1B-47BC-8FCE-7D8B2A047245}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C24C6838-6D1B-47BC-8FCE-7D8B2A047245}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C24C6838-6D1B-47BC-8FCE-7D8B2A047245}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C24C6838-6D1B-47BC-8FCE-7D8B2A047245}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
