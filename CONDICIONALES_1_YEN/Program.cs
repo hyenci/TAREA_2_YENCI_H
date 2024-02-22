@@ -40,7 +40,25 @@ public class Tarea
             }
             else { Console.WriteLine($"EL NUMERO MAYOR ES:   " + num3); }
 
-            Console.WriteLine("----------------------------------------------------------");
+        }
+
+        catch (FormatException error)
+        {
+
+
+            Console.WriteLine("Error en algun valor o dato ingresado por favor volver a intentar");
+            Console.WriteLine(error.Message);
+        }
+        finally
+        {
+
+            Console.WriteLine("Presione cualquier tecla para salir salir del programa...");
+            Console.ReadKey();
+        }
+
+
+        try {
+        Console.WriteLine("----------------------------------------------------------");
             Console.WriteLine("PROGRAMA 2");
             Console.WriteLine("");
             Console.WriteLine("INGRESE SU NOMBRE");
@@ -57,10 +75,27 @@ public class Tarea
             {
                 Console.WriteLine("USTED ES MENOR DE EDAD, NO PUEDE UNIRSE AL CLUB");
             }
+        }
+
+        catch (FormatException error)
+        {
 
 
-            Console.WriteLine("-------------------------------");
-            Console.WriteLine("Calcular el Precio Final de un Producto:");
+            Console.WriteLine("Error en algun valor o dato ingresado por favor volver a intentar");
+            Console.WriteLine(error.Message);
+        }
+        finally
+        {
+
+            Console.WriteLine("Presione cualquier tecla para salir salir del programa...");
+            Console.ReadKey();
+        }
+
+
+
+        try { 
+        Console.WriteLine("-------------------------------");
+            Console.WriteLine("2.Calcular el Precio Final de un Producto:");
             Console.WriteLine("-------------------------------");
             Console.WriteLine("");
             double descuento, des1;
@@ -77,9 +112,27 @@ public class Tarea
             {
                 Console.WriteLine($"SU TOTAL A PAGAR ES: " + precio);
             }
+        }
 
-            Console.WriteLine("-------------------------------");
-            Console.WriteLine("Validar Usuario y Contraseña:");
+        catch (FormatException error)
+        {
+
+
+            Console.WriteLine("Error en algun valor o dato ingresado por favor volver a intentar");
+            Console.WriteLine(error.Message);
+        }
+        finally
+        {
+
+            Console.WriteLine("Presione cualquier tecla para salir salir del programa...");
+            Console.ReadKey();
+        }
+
+
+
+        try { 
+        Console.WriteLine("-------------------------------");
+            Console.WriteLine("3.Validar Usuario y Contraseña:");
             Console.WriteLine("-------------------------------");
             Console.WriteLine("");
             Console.WriteLine("INGRESE POR FAVOR SU NOMBRE DE USUARIO");
@@ -105,11 +158,25 @@ public class Tarea
                 Console.WriteLine("********************************");
                 Console.WriteLine("INTENTALO DE NUEVO");
             }
+        }
+
+        catch (FormatException error)
+        {
 
 
+            Console.WriteLine("Error en algun valor o dato ingresado por favor volver a intentar");
+            Console.WriteLine(error.Message);
+        }
+        finally
+        {
 
-            Console.WriteLine("-----------------------------------------");
-            Console.WriteLine("Determinar si un Número es Par o Impar:");
+            Console.WriteLine("Presione cualquier tecla para salir salir del programa...");
+            Console.ReadKey();
+        }
+
+        try { 
+        Console.WriteLine("-----------------------------------------");
+            Console.WriteLine("4.Determinar si un Número es Par o Impar:");
             Console.WriteLine("-----------------------------------------");
             Console.WriteLine("");
 
@@ -129,9 +196,25 @@ public class Tarea
             {
                 Console.WriteLine("EL NUMERO INGRESADO ES IMPAR");
             }
+        }
 
-            Console.WriteLine("-------------------------------");
-            Console.WriteLine("Mostrar un Mensaje de Aprobación o Rechazo de Préstamo:");
+        catch (FormatException error)
+        {
+
+
+            Console.WriteLine("Error en algun valor o dato ingresado por favor volver a intentar");
+            Console.WriteLine(error.Message);
+        }
+        finally
+        {
+
+            Console.WriteLine("Presione cualquier tecla para salir salir del programa...");
+            Console.ReadKey();
+        }
+
+        try { 
+        Console.WriteLine("-------------------------------");
+            Console.WriteLine("5.Mostrar un Mensaje de Aprobación o Rechazo de Préstamo:");
             Console.WriteLine("-------------------------------");
             Console.WriteLine("");
 
@@ -206,8 +289,8 @@ public class Tarea
             Console.WriteLine(error.Message);
         }
         finally
-        { 
-            
+        {
+
             Console.WriteLine("Presione cualquier tecla para salir salir del programa...");
             Console.ReadKey();
         }
