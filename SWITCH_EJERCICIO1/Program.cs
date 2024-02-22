@@ -48,11 +48,27 @@ public class TAREA2
 
             Console.WriteLine("");
             Console.WriteLine("");
+        }
 
 
 
+        catch (FormatException error)
+        {
 
-            Console.WriteLine("------------------------------------------------------");
+
+            Console.WriteLine("Error en algun valor o dato ingresado por favor volver a intentar");
+            Console.WriteLine(error.Message);
+        }
+        finally
+        {
+
+            Console.WriteLine("Presione cualquier tecla para salir salir del programa...");
+            Console.ReadKey();
+        }
+
+        try { 
+
+        Console.WriteLine("------------------------------------------------------");
             Console.WriteLine("2.\tMostrar el Día de la Semana a partir de un Número:");
             Console.WriteLine("------------------------------------------------------");
             Console.WriteLine("");
@@ -89,8 +105,28 @@ public class TAREA2
 
 
             }
+        }
 
-            Console.WriteLine("");
+
+
+        catch (FormatException error)
+        {
+
+
+            Console.WriteLine("Error en algun valor o dato ingresado por favor volver a intentar");
+            Console.WriteLine(error.Message);
+        }
+        finally
+        {
+
+            Console.WriteLine("Presione cualquier tecla para salir salir del programa...");
+            Console.ReadKey();
+        }
+
+
+
+        try { 
+        Console.WriteLine("");
             Console.WriteLine("");
             Console.WriteLine("");
             Console.WriteLine("------------------------------------------------------");
@@ -122,7 +158,27 @@ public class TAREA2
                     Console.WriteLine("*****************************");
                     break;
             }
-            Console.WriteLine("");
+        }
+
+
+
+        catch (FormatException error)
+        {
+
+
+            Console.WriteLine("Error en algun valor o dato ingresado por favor volver a intentar");
+            Console.WriteLine(error.Message);
+        }
+        finally
+        {
+
+            Console.WriteLine("Presione cualquier tecla para salir salir del programa...");
+            Console.ReadKey();
+        }
+
+        try { 
+
+        Console.WriteLine("");
             Console.WriteLine("");
             Console.WriteLine("");
             Console.WriteLine("------------------------------------------------------------");
@@ -158,8 +214,28 @@ public class TAREA2
                     break;
 
             }
+        }
 
-            Console.WriteLine("------------------------------------------------------");
+
+
+        catch (FormatException error)
+        {
+
+
+            Console.WriteLine("Error en algun valor o dato ingresado por favor volver a intentar");
+            Console.WriteLine(error.Message);
+        }
+        finally
+        {
+
+            Console.WriteLine("Presione cualquier tecla para salir salir del programa...");
+            Console.ReadKey();
+        }
+
+
+
+        try { 
+        Console.WriteLine("------------------------------------------------------");
             Console.WriteLine("5.\tEvaluar la Calificación de un Examen:");
             Console.WriteLine("------------------------------------------------------");
             Console.WriteLine("");
@@ -242,12 +318,6 @@ public class TAREA2
             Console.WriteLine("");
             Console.WriteLine("");
             Console.WriteLine("");
-
-
-
-
-
-
         }
 
 
@@ -265,6 +335,12 @@ public class TAREA2
             Console.WriteLine("Presione cualquier tecla para salir salir del programa...");
             Console.ReadKey();
         }
+
+
+
+
+
+
 
 
 
