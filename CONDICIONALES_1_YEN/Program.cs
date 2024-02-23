@@ -13,32 +13,29 @@ public class Tarea
             Console.WriteLine("");
 
             Console.WriteLine("INGRESE EL PRIMER NUMERO A COMPARAR");
-            double num1 = Convert.ToDouble(Console.ReadLine());
-
+            int num1 = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("INGRESE EL SEGUNDO NUMERO A COMPARAR");
-            double num2 = Convert.ToDouble(Console.ReadLine());
+            int num2 = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine("INGRESE EL TERCER NUMERO A COMPARAR");
-            double num3 = Convert.ToDouble(Console.ReadLine());
-
-            if (num1 > num2)
+            int num3 = Convert.ToInt32(Console.ReadLine());
+            int mayor = num1;
+            if (num2 > mayor)
             {
-                Console.WriteLine($"EL NUMERO MAYOR ES:   " + num1);
+                mayor = num2;
             }
-            else if (num1 < num2)
+            else if (num3 > mayor)
             {
-
-
-                Console.WriteLine($"EL NUMERO MAYOR ES:   " + num2);
+                mayor = num3;
             }
-            else if (num1 == num2 && num2 == num3 && num1 == num3)
+            else
             {
 
-
-                Console.WriteLine("Los numeros que usted ingreso son iguales, por favor ingrese otros valores");
-
+                Console.WriteLine("LOS VALORES QUE INGRESO SON IGUALES");
             }
-            else { Console.WriteLine($"EL NUMERO MAYOR ES:   " + num3); }
+
+
+            Console.WriteLine("El NUMERO MAYOR ES: " + mayor);
 
         }
 
